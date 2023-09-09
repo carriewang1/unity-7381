@@ -53,7 +53,7 @@ If a new model was used, it would be beneficial to take the same approach to acc
 
 The script file needs to be modified to ensure proper functionality.
 
-<img src="/image%20(1).png" alt="screensht inner car" title="screenshot inner">
+<img src="/image(1).png" alt="screensht inner car" title="screenshot inner">
 <img src="/image.png" alt="first-perosn view" title="scrrenshot first perosn view">
 
 ## <ins>Obstacles with collision have nearly been done </ins>
@@ -197,4 +197,3 @@ Data Collection Transparency:
 
 The privacy policy accessible within the game will detail data collection practices. It will explain that data includes user profiles, gameplay statistics, and device information. The policy will clarify that data is used solely for game improvement and analytics.
 ```
-
