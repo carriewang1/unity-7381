@@ -53,8 +53,8 @@ If a new model was used, it would be beneficial to take the same approach to acc
 
 The script file needs to be modified to ensure proper functionality.
 
-<img src="/image(1).png" alt="screensht inner car" title="screenshot inner">
-<img src="/image.png" alt="first-perosn view" title="scrrenshot first perosn view">
+<img src="/images/image%20(1).png" alt="screensht inner car" title="screenshot inner">
+<img src="/images/image.png" alt="first-perosn view" title="scrrenshot first perosn view">
 
 ## <ins>Obstacles with collision have nearly been done </ins>
 
@@ -66,7 +66,7 @@ The script file needs to be modified to ensure proper functionality.
 - Create and play a video through a trigger
 - Cars can realise collision effects. There is a limit to the number of collisions.
 
-<img src="/Trigger.jpg" alt="screensht inner car" title="screenshot inner">
+<img src="/images/Trigger.jpg" alt="screensht inner car" title="screenshot inner">
 The image shows the object collision effect that uses 3D objects to simulate.
 
 ## <ins>Blur camera Setting<ins>
@@ -84,9 +84,8 @@ The blur camera is almost done. There may be some changes, such as the dizziness
 
 The below images show the camera shaking and blur effect and code.
 
-<img src="/%E6%88%AA%E5%B1%8F2023-09-07_17.35.54.png" alt="screen code" title="screenshot camera effects code">
-<img src="/%E6%88%AA%E5%B1%8F2023-09-07_17.36.07.png" alt="screensht code" title="screenshot inner">
-<img src="/%E6%88%AA%E5%B1%8F2023-09-07_17.44.18.png" alt="screensht camera effect" title="screenshot effect">
+<img src="/images/code1.png" alt="screensht code" title="screenshot inner">
+<img src="/images/shakescreen.png" alt="screensht camera effect" title="screenshot effect">
 
 ## <ins>G29 and Unity Connection<ins>
 
@@ -103,7 +102,7 @@ The below images show the camera shaking and blur effect and code.
 - Combining all parts of us finished tasktogether.
 - Figure out how to implement it in the First-person view.
 
-<img src="/images/7381_week8_snapshot_code.png" alt="screen code" title="screenshot G29 CONNECT  code">
+<img src="/images/code.png" alt="screen code" title="screenshot G29 CONNECT  code">
 <img src="/images/7381_week8_snapshot_UnityView.png" alt="screen result" title="screenshot G29 result connection">
 
 ## <ins>Ethics, security and data privacy</ins>
