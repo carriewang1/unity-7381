@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Vehicle Physics Pro/Scenes/Sport Coupe Demo.unity
+- path: Assets/Unity UI Samples/Scenes/Menu 3D.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
