@@ -203,17 +203,56 @@ In week 6, we assigned each member a task that goes through the whole project:
 
 1. Combined user life icon to the final one
 
-1. Made the after-survey for user test - Ruobing Wang
+Completed the UI design for the Healthbar, which implements the correct feedback that occurs when the player collides with an object. The Healthbar system can reflect the player's remaining number of collisions as reflected by the decrease in the fixed health value.
+<img src="/images/HealthBar UI.png" alt="Health bar">
+<img src="/images/Healthbar.png" alt="Health bar">
+<img src="/images/UI CODE.png" alt="Health bar">
+<img src="/images/UI.png" alt="Health bar">
 
-1. Process Bar (which changes with windows blur)
+2. Made the after-survey for user test
 
-1. Game page UI ( Buttons : quit, stop, back )
-Eva included a pause UI interface to provide the user the option to end their game session at any point.
+3. Process Bar (which changes with windows blur)
+
+- Include an alchol processing bar
+  <img src="/images/processing bar.png" alt="processing bar">
+  <img src="/images/processing code.png" alt="processing bar">
+  <img src="/images/processing code-2.png" alt="processing bar">
+
+- Optimize camera shaking to prevent clipping.
+
+- Enhance dynamic blur effect to intensify over time, corresponding to the alcohol concentration UI bar.
+  <img src="/images/prevent clipping2023-10-06.png" alt="UI">
+  <img src="/images/blur with time.png" alt="Blur effect">
+
+4. Game page UI ( Buttons : quit, stop, back )
+
+We included a pause UI interface to provide the user the option to end their game session at any point.
 <img src="/images/Pause Menu.png" alt="Pause UI">
-The menu will appear when the user pushes the pause key on ESC or G29 pause button. The figure displays the code that was used. When using pause, the full Unity timeline is set to 0, and when using resume, it is set to 1. The dynamic display of the menu bar cannot be displayed when all interfaces are halted, but this difficulty is still present, and it is being worked on. Additionally, the interface for the game's final menu has been created and will be included after the final video of the game has been played.
+The menu will appear when the user pushes the pause key on ESC or G29 pause button. The figure displays the code that was used. When using pause, the full Unity timeline is set to 0, and when using resume, it is set to 1.
+<img src="/images/Pause Menu Code.png" alt="Pause UI Code">
+The dynamic display of the menu bar cannot be displayed when all interfaces are halted, but this difficulty is still present, and it is being worked on. Additionally, the interface for the game's final menu has been created and will be included after the final video of the game has been played.
+<img src="/images/Ending UI.png" alt="Ending UI">
 
-1. Instructor induction page: Saturday discuss
+5. Instructor induction page: Saturday discuss
 
-1. Car performance improvement ability
+6. Car performance improvement ability
+   Mission Accomplished:
 
-1. Ui of Minimap frame
+- Simulate real driving physics engine - Reverse, brake, handbrake, auto deceleration, car sounds, speed display, special effects, G29 feedback when hitting objects, add additional G29 physics feedback to optimise the user driving experience and increase interaction.
+
+- Pause Interaction - Successfully used the G29 button to allow users to pause the game and choose to restart the game or return to the main menu.
+  ‌
+  Bug:
+
+- Refreshing too quickly causes the pause screen to keep popping up if the press button is pressed all the time. -Should be changed to press once to bring up the pause screen. Possible error in logic. The logic is to monitor the value of the button array in the SDK as 1, and then proceed with other commands. However pressing this value all the time will always do other commands. So to change the logic, change the detection condition.
+
+- The game should end and play the video after the player's life is over, but the system continues with the sound of the vehicle's engine. The logic may be wrong.
+
+- Modelling issue, the dashboard is reversed when you look closely, this is because we need to mirror convert the steering wheel, so it causes the numbers to be reversed, but it doesn't affect much.
+
+7. UI of Minimap frame
+
+Putting the road signs and obstacles on our scene and minimap edit.
+<img src="/images/minimap.png" alt="minimap">
+<img src="/images/minimap2.png" alt="version 2 minimap">
+<img src="/images/minimap_road.png" alt="road signs">
