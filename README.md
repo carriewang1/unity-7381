@@ -196,3 +196,21 @@ Data Collection Transparency:
 
 The privacy policy accessible within the game will detail data collection practices. It will explain that data includes user profiles, gameplay statistics, and device information. The policy will clarify that data is used solely for game improvement and analytics.
 ```
+
+# Week 11 Snapshot
+
+In week 6, we assigned each member a task that goes through the whole project:
+
+1. Combined user life icon to the final one
+
+1. Made the after-survey for user test - Ruobing Wang
+
+1. Process Bar (which changes with windows blur)
+
+1.Game page UI ( Buttons : quit, stop, back )
+
+1. Instructor induction page: Saturday discuss
+
+1. Car performance improvement ability
+
+1. Ui of Minimap frame
