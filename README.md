@@ -207,7 +207,7 @@ In week 6, we assigned each member a task that goes through the whole project:
 
 1. Process Bar (which changes with windows blur)
 
-1.Game page UI ( Buttons : quit, stop, back )
+1. Game page UI ( Buttons : quit, stop, back )
 
 1. Instructor induction page: Saturday discuss
 
