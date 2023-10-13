@@ -255,4 +255,3 @@ The dynamic display of the menu bar cannot be displayed when all interfaces are 
 Putting the road signs and obstacles on our scene and minimap edit.
 <img src="/images/minimap.png" alt="minimap">
 <img src="/images/minimap2.png" alt="version 2 minimap">
-<img src="/images/minimap_road.png" alt="road signs">
