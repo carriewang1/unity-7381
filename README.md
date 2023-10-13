@@ -208,6 +208,9 @@ In week 6, we assigned each member a task that goes through the whole project:
 1. Process Bar (which changes with windows blur)
 
 1. Game page UI ( Buttons : quit, stop, back )
+Eva included a pause UI interface to provide the user the option to end their game session at any point.
+<img src="/images/Pause Menu.png" alt="Pause UI">
+The menu will appear when the user pushes the pause key on ESC or G29 pause button. The figure displays the code that was used. When using pause, the full Unity timeline is set to 0, and when using resume, it is set to 1. The dynamic display of the menu bar cannot be displayed when all interfaces are halted, but this difficulty is still present, and it is being worked on. Additionally, the interface for the game's final menu has been created and will be included after the final video of the game has been played.
 
 1. Instructor induction page: Saturday discuss
 
